@@ -1,0 +1,15 @@
+{
+    "name": "vujobsscrapper",
+    "version": "1.0.0",
+    "description": "script that scraps latest jobs from vulearning.com",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Waqas Ayub",
+    "license": "ISC",
+    "dependencies": {
+        "puppeteer": "^13.5.1"
+    }
+}
