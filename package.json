@@ -9,6 +9,13 @@
     },
     "author": "Waqas Ayub",
     "license": "ISC",
+    "keywords": [
+        "scrapper",
+        "scraping with puppeteer",
+        "jobs scrapping script",
+        "vujobsscrapper",
+        "scraping with node.js"
+    ],
     "dependencies": {
         "puppeteer": "^13.5.1"
     }

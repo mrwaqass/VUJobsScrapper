@@ -73,6 +73,9 @@ let userAgents = [
         console.log('Ads Links', adsLinks)
         let date = new Date().toDateString()
         console.log('Date:', date)
+        if (!fs.existsSync(path.join(`./vujobs`))) {
+            fs.mkdirSync(path.join(`./vujobs`))
+        }
         let vujobsPath = path.join(`./vujobs/${date}`)
         if (!fs.existsSync(vujobsPath)) {
             fs.mkdirSync(vujobsPath)
