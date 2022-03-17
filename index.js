@@ -73,6 +73,7 @@ let userAgents = [
         console.log('Ads Links', adsLinks)
         let date = new Date().toDateString()
         console.log('Date:', date)
+        // making vujobs folder if not exists
         if (!fs.existsSync(path.join(`./vujobs`))) {
             fs.mkdirSync(path.join(`./vujobs`))
         }
